@@ -30,7 +30,6 @@ class Programmer extends Person {
         this.languages = languages;
     }
 
-    // would change  busy value to false
     completeTask() {
         return this.busy = false;
     }
